@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RepoListItem /> renders correctly 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        className="star-cell"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m37.5 15l-12.2-1.6-5.3-10.9-5.3 10.9-12.2 1.6 9 8.2-2.3 11.8 10.8-5.8 10.8 5.8-2.3-11.8 9-8.2z"
+            />
+          </g>
+        </svg>
+        100
+      </td>
+      <td
+        className="repo-details-cell"
+      >
+        <h4>
+          test
+        </h4>
+        test description
+      </td>
+      <td
+        className="contributors-cell"
+      />
+    </tr>
+  </tbody>
+</table>
+`;

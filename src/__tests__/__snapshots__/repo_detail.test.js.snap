@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RepoDetail /> renders correctly 1`] = `
+<div>
+  <div
+    className="contrib-cell"
+  >
+    <img
+      className="avatar"
+      src="url1.com"
+    />
+    <a
+      className="contrib-link"
+      href="url1.com"
+    >
+      #1 
+      login1
+    </a>
+  </div>
+  <div
+    className="contrib-cell"
+  >
+    <img
+      className="avatar"
+      src="url2.com"
+    />
+    <a
+      className="contrib-link"
+      href="url2.com"
+    >
+      #2 
+      login2
+    </a>
+  </div>
+  <div
+    className="contrib-cell"
+  >
+    <img
+      className="avatar"
+      src="url3.com"
+    />
+    <a
+      className="contrib-link"
+      href="url3.com"
+    >
+      #3 
+      login3
+    </a>
+  </div>
+</div>
+`;

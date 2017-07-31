@@ -1,0 +1,42 @@
+{
+  "name": "BrightGithub",
+  "version": "1.0.0",
+  "description": "Provide the top 100 github repos with their top contributor!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^config$": "<rootDir>/src/components/*.js"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "jest": "^20.0.4",
+    "jquery": "^2.2.1",
+    "react-addons-test-utils": "^0.14.8",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.5.4",
+    "regenerator-runtime": "^0.10.5",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-preset-stage-1": "^6.1.18",
+    "react": "^15.4.0",
+    "react-icons": "^2.2.5",
+    "react-parallax": "^1.4.4",
+    "sinon": "^2.4.1",
+    "skrollr": "^0.6.26"
+  }
+}

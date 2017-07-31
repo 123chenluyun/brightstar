@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders loader to start 1`] = `
+<div>
+  
+  <div
+    className="loader-container"
+  >
+    <div
+      className="sk-circle"
+    >
+      <div
+        className="sk-circle1 sk-child"
+      />
+      <div
+        className="sk-circle2 sk-child"
+      />
+      <div
+        className="sk-circle3 sk-child"
+      />
+      <div
+        className="sk-circle4 sk-child"
+      />
+      <div
+        className="sk-circle5 sk-child"
+      />
+      <div
+        className="sk-circle6 sk-child"
+      />
+      <div
+        className="sk-circle7 sk-child"
+      />
+      <div
+        className="sk-circle8 sk-child"
+      />
+      <div
+        className="sk-circle9 sk-child"
+      />
+      <div
+        className="sk-circle10 sk-child"
+      />
+      <div
+        className="sk-circle11 sk-child"
+      />
+      <div
+        className="sk-circle12 sk-child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<App /> renders repos and header after setting state 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <Header />
+    <RepoList
+        repos={
+            Array [
+                Object {
+                  "contributors_url": "www.test.com",
+                  "description": "test description",
+                  "id": 1,
+                  "name": "test",
+                  "stargazers_count": 100,
+                },
+                Object {
+                  "contributors_url": "www.test2.com",
+                  "description": "test2 description",
+                  "id": 2,
+                  "name": "test2",
+                  "stargazers_count": 99,
+                },
+              ]
+        }
+    />
+</div>,
+  "nodes": Array [
+    <div>
+      <Header />
+      <RepoList
+            repos={
+                  Array [
+                        Object {
+                          "contributors_url": "www.test.com",
+                          "description": "test description",
+                          "id": 1,
+                          "name": "test",
+                          "stargazers_count": 100,
+                        },
+                        Object {
+                          "contributors_url": "www.test2.com",
+                          "description": "test2 description",
+                          "id": 2,
+                          "name": "test2",
+                          "stargazers_count": 99,
+                        },
+                      ]
+            }
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance":  {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <App />,
+      "_debugID": 61,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": App {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": Object {
+          "loaded": true,
+          "repos": Array [
+            Object {
+              "contributors_url": "www.test.com",
+              "description": "test description",
+              "id": 1,
+              "name": "test",
+              "stargazers_count": 100,
+            },
+            Object {
+              "contributors_url": "www.test2.com",
+              "description": "test2 description",
+              "id": 2,
+              "name": "test2",
+              "stargazers_count": 99,
+            },
+          ],
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 4,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <Header />
+          <RepoList
+                    repos={
+                              Array [
+                                        Object {
+                                          "contributors_url": "www.test.com",
+                                          "description": "test description",
+                                          "id": 1,
+                                          "name": "test",
+                                          "stargazers_count": 100,
+                                        },
+                                        Object {
+                                          "contributors_url": "www.test2.com",
+                                          "description": "test2 description",
+                                          "id": 2,
+                                          "name": "test2",
+                                          "stargazers_count": 99,
+                                        },
+                                      ]
+                    }
+          />
+</div>,
+        "_debugID": 62,
+        "_renderedOutput": <div>
+          <Header />
+          <RepoList
+                    repos={
+                              Array [
+                                        Object {
+                                          "contributors_url": "www.test.com",
+                                          "description": "test description",
+                                          "id": 1,
+                                          "name": "test",
+                                          "stargazers_count": 100,
+                                        },
+                                        Object {
+                                          "contributors_url": "www.test2.com",
+                                          "description": "test2 description",
+                                          "id": 2,
+                                          "name": "test2",
+                                          "stargazers_count": 99,
+                                        },
+                                      ]
+                    }
+          />
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <App />,
+}
+`;
