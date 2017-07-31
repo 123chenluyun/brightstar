@@ -5,6 +5,7 @@ import Loader from './components/loader';
 import Header from './components/header';
 import axios from 'axios'
 
+const TOKEN = '9b8fb3a0eb6a0d95a08aefb5a58927adfaa285ec'
 export default class App extends Component {
 	
 	constructor(props) {
@@ -16,7 +17,7 @@ export default class App extends Component {
 	}
 
 	componentWillMount() {
-		axios.get("https://api.github.com/search/repositories?access_token=f07942b40d0e7e3441df9009a8434940c3d614d1&q=stars:>1000&sort=stars&order=desc&page=1&per_page=100")
+		axios.get("https://api.github.com/search/repositories?access_token=" + TOKEN + "&q=stars:>1000&sort=stars&order=desc&page=1&per_page=100")
 				      .then(response => {
 				          this.setState({repos: response.data.items, loaded: true });
 		});

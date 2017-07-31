@@ -3,6 +3,8 @@ import Star from 'react-icons/lib/go/star';
 import RepoContribDetail from './repo_detail';
 import axios from 'axios';
 
+const TOKEN = '9b8fb3a0eb6a0d95a08aefb5a58927adfaa285ec';
+
 class RepoListItem extends Component {
 	constructor(props) {
 		super(props);
@@ -13,7 +15,7 @@ class RepoListItem extends Component {
 	}
 
 	componentWillMount() {
-		axios.get(this.state.repo.contributors_url + "?access_token=f07942b40d0e7e3441df9009a8434940c3d614d1")
+		axios.get(this.state.repo.contributors_url + "?access_token=" + TOKEN )
 			      .then(response => {
 			      	  if(response.status !== 403){
 			      	  	this.setState({contributors: response.data.slice(0,3)});
