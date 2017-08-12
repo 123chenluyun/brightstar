@@ -23,5 +23,3 @@ What'd I learn?
 -when combining components with custom node libraries, renderer does not like it and you will not see your expected results 
 -jest runs a lot like jasmine
 -asset management loading would've been included in my library to 
--if you're using babel to compile your code you need to make sure to tell jest that you're using babel and install the proper dependicies
--the documentation isn't always right 
